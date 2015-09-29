@@ -41,7 +41,9 @@
         // url 不同，第一层字典的 key 不同
         // 利用 keyEnumerator.nextObject 能够拿到 第一个 key
         // 主要用来遍历字典
-        NSLog(@"%@", responseObject.keyEnumerator.nextObject);
+//        NSLog(@"%@", responseObject.keyEnumerator.nextObject);
+        
+         NSLog(@"%@", responseObject.objectEnumerator);
         // 根据 key 拿到第一个数组
         NSArray *array = responseObject[responseObject.keyEnumerator.nextObject];
         NSLog(@"%@", array);

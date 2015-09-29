@@ -35,6 +35,7 @@
 		1A72642F1BBAB611005E8082 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72641A1BBAB611005E8082 /* UIWebView+AFNetworking.m */; };
 		1A7264321BBAB643005E8082 /* MLNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7264311BBAB643005E8082 /* MLNetManager.m */; };
 		1A7264391BBAD985005E8082 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7264381BBAD985005E8082 /* News.m */; };
+		1A72643D1BBAE3BD005E8082 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72643C1BBAE3BD005E8082 /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		1A7264311BBAB643005E8082 /* MLNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNetManager.m; sourceTree = "<group>"; };
 		1A7264371BBAD985005E8082 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		1A7264381BBAD985005E8082 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		1A72643B1BBAE3BD005E8082 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		1A72643C1BBAE3BD005E8082 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,7 @@
 		1A7263F11BBAB611005E8082 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1A72643A1BBAE3BD005E8082 /* Log */,
 				1A7263F21BBAB611005E8082 /* AFNetworking */,
 				1A7264301BBAB643005E8082 /* MLNetManager.h */,
 				1A7264311BBAB643005E8082 /* MLNetManager.m */,
@@ -278,6 +282,15 @@
 				1A7264381BBAD985005E8082 /* News.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		1A72643A1BBAE3BD005E8082 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				1A72643B1BBAE3BD005E8082 /* NSArray+Log.h */,
+				1A72643C1BBAE3BD005E8082 /* NSArray+Log.m */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +415,7 @@
 				1A7264251BBAB611005E8082 /* AFURLSessionManager.m in Sources */,
 				1A72642F1BBAB611005E8082 /* UIWebView+AFNetworking.m in Sources */,
 				1A7263CC1BBAB560005E8082 /* AppDelegate.m in Sources */,
+				1A72643D1BBAE3BD005E8082 /* NSArray+Log.m in Sources */,
 				1A7264281BBAB611005E8082 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				1A7263C91BBAB560005E8082 /* main.m in Sources */,
 			);
